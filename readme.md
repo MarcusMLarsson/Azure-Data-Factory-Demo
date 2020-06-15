@@ -9,16 +9,13 @@
 <h3> What can you do with Azure Data Factory </h3>
 
 <p> At is core, Azure Data Factory can be used to ingest and transform data. </p>
+<b> Ingest data </b>
 <p>
 You can ingest data to and from more than 80 Software-as-a-Service (SaaS) applications (such as Dynamics 365 and Salesforce), on-premises data stores (such as SQL Server and Oracle), and cloud data stores (such as Azure SQL Database and Amazon S3). During ingestion, you can even convert file formats, zip and unzip files, and map columns implicitly and explicitly – all in one task. </p>
 
+<b> Transform data
 <p>
 In addition to ingesting data, you can also transform data. Previously, the only way to do this was to use external services like Azure HDInsight or SQL Server Stored Procedures. But in 2019, Azure Data Factory completed the data integration story by adding new data transformation capabilities called Data Flows. Now you can both ingest and transform data in the same user interface, making Azure Data Factory a complete ETL and data integration tool. </p>
-
-<h3> Example of a typical architecture</h3>
-
-<img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/img.PNG">
-
 
 <h3> Why should you use Azure Data Factory? </h3>
 
@@ -75,6 +72,12 @@ In addition to ingesting data, you can also transform data. Previously, the only
 
 
 
+
+
+
+<h3> Example of a typical architecture</h3>
+
+<img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/img.PNG">
 
 
 
