@@ -19,6 +19,30 @@ In addition to ingesting data, you can also transform data. Previously, the only
 
 <h3> Why should you use Azure Data Factory? </h3>
 
+<p> In almost any Cloud project you will need to perform data movement activities across various networks (i.e. on-premise to the Cloud) and across various services (i.e. from Azure Blob Storage to Azure SQL Server). Azure Data Factory is one option to use as your cloud ETL/ELT tool.
+  
+  
+  There are some features that distinguish Azure Data Factory from other tools.
+
+
+SSIS mainly used for ETL on-premises
+Released in 2005 before Azure was announced. 
+Some of the limitations (no big data)
+You can easly lift and shift SSIS packaged to Azure
+
+
+ | Azure Data Factory     | SSIS     |
+| ------------- |:-------------:|
+| High volumn of data | Medium volumn of data|
+| Batch & Streaming | Batch    |
+| Structured, Unstructured & Schema-drift | Structured       |
+| Browser  |SSDT        |
+| Drag and Drop & Code (CLI & SDK)  | Drag and Drop       |
+| VB, C# & Biml  |C#, Python, PowerShell CLI| 
+| On-Premises, Own Hardware, Scale out  |Hybrid, Managed, Scale up | 
+| Licenses  |Pay as you go | 
+
+
   
   | Azure Data Factory     | SSIS     |
 | ------------- |:-------------:|
@@ -30,14 +54,13 @@ In addition to ingesting data, you can also transform data. Previously, the only
 | uses Json files  |uses DTSX (XML)| 
 
 
+Iterative development and debugging by using visual tools
 
 
+<h3> Cost </h3>
 
 
-
-
-
-
+<p> Databricks , preperation, collaboration, AI / ML </p>
 
 
 <p> There are six main components that you need to understand inorder to create your projects. 
