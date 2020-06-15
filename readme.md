@@ -43,7 +43,7 @@ It was becoming increasingly more difficult to do traditional ETL using tools li
   <h3> How to learn Azure Data Factory </h3> 
   
   <img src="https://www.cathrinewilhelmsen.net/scribbles/wp-content/uploads/2019/11/CathrineWilhelmsenBeginnersGuidetoAzureDataFactory03_Components-1.png">
-  <p> There are six main components of Azure Data Factory. If you understand these components, you understand Azure Data Factory </p>
+  <p> There are six main components of Azure Data Factory. If you understand these components, you understand Azure Data Factory. </p>
   
   <ul> 
   <li> <b>Pipeline </b></li>
@@ -87,7 +87,7 @@ It was becoming increasingly more difficult to do traditional ETL using tools li
   
   
   
-  
+  <h3> Demo </h3>
   
   
   
