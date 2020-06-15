@@ -10,12 +10,35 @@
 
 <p> At is core, Azure Data Factory can be used to ingest and transform data. You can ingest data to and from more than 80 Software-as-a-Service (SaaS) applications (such as Dynamics 365 and Salesforce), on-premises data stores (such as SQL Server and Oracle), and cloud data stores (such as Azure SQL Database and Amazon S3). During ingestion, you can even convert file formats, zip and unzip files, and map columns implicitly and explicitly – all in one task. In addition to ingesting data, you can also transform data. Previously, the only way to do this was to use external services like Azure HDInsight or SQL Server Stored Procedures. But in 2019, Azure Data Factory completed the data integration story by adding new data transformation capabilities called Data Flows. Now you can both ingest and transform data in the same user interface, making Azure Data Factory a complete ETL and data integration tool. </p>
 
-<h3> Why should you use Azure Data Factory? </h3>
+<h3> On-premise ETL vs Cloud ETL</h3>
+
+<b> On-premise ETL </b>
+<p> For on-premise ETL solutions, SQL Server Integration Services (SSIS) is still the industry-standard for those invested in the Microsoft BI Stack. SSIS has been around since 2005. It’s very mature and has a lot of learning resources, blogs and articles as how to setup and develop with it. SSIS provides connectors to many different sources and contains many different transformation tasks that can handle pretty much any kind of traditional ETL workflow. For those people moving to Azure and who has sunk a lot of development time into SSIS, have no fear. It's very easy to lift and shift your solution to the cloud.
+<ul>
+  <li> If you are looking for a PaaS-based approach, you can simply lift your SQL Server virtual machine running SSIS into the cloud </li>
+  <li> For those who want to leverage a PaaS-based approaches, Azure now offers the facility to publish your SSIS packages directly into Data Factory. </li>
+</ul>
+  
+  | Azure Data Factory     | SSIS     |
+| ------------- |:-------------:|
+| High volumn of data | Medium volumn of data|
+| Batch & Streaming | Batch    |
+| Structured, Unstructured & Schema-drift | Structured       |
+| Browser  |SSDT        |
+| Drag and Drop & Code (CLI & SDK)  | Drag and Drop       |
+| VB, C# & Biml  |C#, Python, PowerShell CLI| 
+| On-Premises, Own Hardware, Scale out  |Hybrid, Managed, Scale up | 
+| Licenses  |Pay as you go | 
+ 
+  
+  
 
 <p> In almost any Cloud project you will need to perform data movement activities across various networks (i.e. on-premise to the Cloud) and across various services (i.e. from Azure Blob Storage to Azure SQL Server). Azure Data Factory is one option to use as your cloud ETL/ELT tool.
   
  You can execute SSIS packages in Azure Data Factory. If you are comming from the SSIS side, and you are looking into how to modernize and improve your solution.
 
+
+So, for those projects that are born in the cloud, can we use SSIS? Yes, sure you can. But if your using mainly cloud-born data or a hybrid, or if you need to move data at scale, 
  
  
   There are some features that distinguish Azure Data Factory from other tools.
@@ -27,16 +50,6 @@ Some of the limitations (no big data)
 You can easly lift and shift SSIS packaged to Azure
 
 
- | Azure Data Factory     | SSIS     |
-| ------------- |:-------------:|
-| High volumn of data | Medium volumn of data|
-| Batch & Streaming | Batch    |
-| Structured, Unstructured & Schema-drift | Structured       |
-| Browser  |SSDT        |
-| Drag and Drop & Code (CLI & SDK)  | Drag and Drop       |
-| VB, C# & Biml  |C#, Python, PowerShell CLI| 
-| On-Premises, Own Hardware, Scale out  |Hybrid, Managed, Scale up | 
-| Licenses  |Pay as you go | 
 
 
   
