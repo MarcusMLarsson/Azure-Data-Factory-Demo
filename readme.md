@@ -51,16 +51,16 @@ It was becoming increasingly more difficult to do traditional ETL using tools li
   <li> <b>Activitites </b></li>
   <p> Activities are handeling the data. There are three types of activities in Azure Data Factory. 
     <ul>
-      <li> <b>Data movement activitites</b> </li>
+      <li> Data movement activitites</li>
       <p> Copies and moves data from different sources </p>
-      <li> <b>Data transformation activitites</b></li>
+      <li> Data transformation activitites</li>
       <p> You can use Data Factory interface or external services like HDinsight (Hive, Hadoop, Spark, Pig, MapReduce), Databricks, Azure ML etc. 
       <li> Data Control</li>
       <p> Define the logic that your pipeline is going to follow. With options like ForEach. </p>
   </ul>       
   <li> <b>Triggers </b></li>
   <p> Defineds when a pipeline needs to run.</p>
-  <li> Integration runtime </li>
+  <li> <b>Integration runtime </b></li>
   <ul>
     <li> Data Flow execution </li>
     <li> Data Movement execution </li>
@@ -76,6 +76,14 @@ It was becoming increasingly more difficult to do traditional ETL using tools li
   
   
   
+  | Azure Data Factory     | SSIS     |
+| ------------- |:-------------:|
+| Pipeline  | Package|
+| Activity   | Task     |
+| Linked Services | Connection Managers       |
+| Datasets  |SSIS Sources and Destinations        |
+| Source/Sink   |Source/Destination       |
+| uses Json files  |uses DTSX (XML)| 
   
   
   
@@ -83,7 +91,7 @@ It was becoming increasingly more difficult to do traditional ETL using tools li
   
   
   
-  
+  <hr>
   
   
 
@@ -93,14 +101,6 @@ It was becoming increasingly more difficult to do traditional ETL using tools li
 
 <p> Databricks , preperation, collaboration, AI / ML </p>
 
-  | Azure Data Factory     | SSIS     |
-| ------------- |:-------------:|
-| Pipeline  | Package|
-| Activity   | Task     |
-| Linked Services | Connection Managers       |
-| Datasets  |SSIS Sources and Destinations        |
-| Source/Sink   |Source/Destination       |
-| uses Json files  |uses DTSX (XML)| 
 
 
 Iterative development and debugging by using visual tools
