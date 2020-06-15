@@ -40,26 +40,25 @@
   
 It was becoming increasingly more difficult to do traditional ETL using tools like SSIS as the scale, size and shape of the data to be processed meant that you’d be hard pressed to fit it all in memory and process. What Data Factory allows you to do is copy the data at massive scale into your data lake, and then use processing tools more appropriate to the job to transform the data ready for usage downstream. This pattern is not dissimilar in fact to a common pattern seen in SSIS wherein developers simply used SSIS as the orchestrator and called a series of SQL Statements (often Stored Procedures) to handle the processing. The difference now is that it’s not just relational tables we’re dealing with and SQL code. It’s parquet, orc and avro combined with SQL and Python, mixed with a healthy does of JSON, NoSQL, Key Value pairs and Graph databases plus a sprinkle of Spark. 
 
-
-  </h3> How to learn Azure Data Factory </h3> 
+  <h3> How to learn Azure Data Factory </h3> 
   
   <img src="https://www.cathrinewilhelmsen.net/scribbles/wp-content/uploads/2019/11/CathrineWilhelmsenBeginnersGuidetoAzureDataFactory03_Components-1.png">
   <p> There are six main components of Azure Data Factory. If you understand these components, you understand Azure Data Factory </p>
   
   <ul> 
-  <li> Pipeline </li>
+  <li> <b>Pipeline </b></li>
   <p> A pipeline is a logical set of activities. The advantages of the pipeline is that it allows you to manage these activities as a set, instead of each one individually. </p>
-  <li> Activitites </li>
+  <li> <b>Activitites </b></li>
   <p> Activities are handeling the data. There are three types of activities in Azure Data Factory. 
     <ul>
-      <li> Data movement activitites </li>
+      <li> <b>Data movement activitites</b> </li>
       <p> Copies and moves data from different sources </p>
-      <li> Data transformation activitites</li>
+      <li> <b>Data transformation activitites</b></li>
       <p> You can use Data Factory interface or external services like HDinsight (Hive, Hadoop, Spark, Pig, MapReduce), Databricks, Azure ML etc. 
       <li> Data Control</li>
       <p> Define the logic that your pipeline is going to follow. With options like ForEach. </p>
   </ul>       
-  <li> Triggers </li>
+  <li> <b>Triggers </b></li>
   <p> Defineds when a pipeline needs to run.</p>
   <li> Integration runtime </li>
   <ul>
@@ -68,7 +67,7 @@ It was becoming increasingly more difficult to do traditional ETL using tools li
     <li> Dispatch of ACtivities </li>
     <li> SSIS package execution </li>
   </ul>
-  <li> Datasets </li>
+  <li> <b>Datasets </b></li>
   <p> Datasets are about data structure </p>
   <li> Linked services </li>
   <p> Linked services are similar to connection strings </p>
