@@ -1,5 +1,7 @@
 <h1> Introduction to Azure Data Factory </h1>
 
+<img src="https://www.element61.be/sites/default/files/competence/Azure%20Factory/image%201.png" width="500">
+
 <h3> What is Azure Data Factory? </h3>
 
 <p> What is at the core of every Business Intelligence, Data Science, and Machine Learning project? <b>Data!</b> You need to collect, move, store, transform, integrate, and prepare your data. That can be a pretty big and time-consuming task, right? Wouldn’t it be cool if we could do all of those things automatically, like, in a data factory or something? Azure Data Factory (ADF) is a hybrid data integration service that enables you to quickly and efficiently create automated data pipelines – without having to write any or little amount of code!  </p>
