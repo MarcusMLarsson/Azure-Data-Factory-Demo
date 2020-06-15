@@ -98,10 +98,10 @@ Iterative development and debugging by using visual tools
 
 
 
-<h3> Example of a typical architecture</h3>
+<h3> Modern Data Warehouse</h3>
 
 <img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/img.PNG">
-
+<img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/img1.PNG">
 
 
 
