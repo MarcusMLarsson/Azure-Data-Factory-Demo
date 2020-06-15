@@ -6,12 +6,36 @@
 
 <h3> What can you do with Azure Data Factory </h3>
 
-<p> You can ingest data and you can transform data. </p>
+<p> At is core, Azure Data Factory can be used to ingest and transform data. </p>
 <p>
-Ingesting data is the core task in Azure Data Factory. You can ingest data to and from more than 80 Software-as-a-Service (SaaS) applications (such as Dynamics 365 and Salesforce), on-premises data stores (such as SQL Server and Oracle), and cloud data stores (such as Azure SQL Database and Amazon S3). During ingestion, you can even convert file formats, zip and unzip files, and map columns implicitly and explicitly – all in one task. </p>
+You can ingest data to and from more than 80 Software-as-a-Service (SaaS) applications (such as Dynamics 365 and Salesforce), on-premises data stores (such as SQL Server and Oracle), and cloud data stores (such as Azure SQL Database and Amazon S3). During ingestion, you can even convert file formats, zip and unzip files, and map columns implicitly and explicitly – all in one task. </p>
 
 <p>
 In addition to ingesting data, you can also transform data. Previously, the only way to do this was to use external services like Azure HDInsight or SQL Server Stored Procedures. But in 2019, Azure Data Factory completed the data integration story by adding new data transformation capabilities called Data Flows. Now you can both ingest and transform data in the same user interface, making Azure Data Factory a complete ETL and data integration tool. </p>
+
+
+<h3> Why should you use Azure Data Factory? </h3>
+
+  
+  | Azure Data Factory     | SSIS     |
+| ------------- |:-------------:|
+| Pipeline  | Package|
+| Activity   | Task     |
+| Linked Services | Connection Managers       |
+| Datasets  |SSIS Sources and Destinations        |
+| Source/Sink   |Source/Destination       |
+| uses Json files  |uses DTSX (XML)| 
+
+
+
+
+
+
+
+
+
+
+
 
 <p> There are six main components that you need to understand inorder to create your projects. 
   
@@ -44,22 +68,12 @@ In addition to ingesting data, you can also transform data. Previously, the only
   </ul>
 
 
-<h3> Why should you use Azure Data Factory? </h3>
+
 
 
 <h3> Demo </h3>
 
 
-
-  
-  | Azure Data Factory     | SSIS     |
-| ------------- |:-------------:|
-| Pipeline  | Package|
-| Activity   | Task     |
-| Linked Services | Connection Managers       |
-| Datasets  |SSIS Sources and Destinations        |
-| Source/Sink   |Source/Destination       |
-| uses Json files  |uses DTSX (XML)| 
 
 
 <h3> Demo </h3>
