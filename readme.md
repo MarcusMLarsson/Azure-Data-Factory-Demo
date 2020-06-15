@@ -21,7 +21,10 @@ In addition to ingesting data, you can also transform data. Previously, the only
 
 <p> In almost any Cloud project you will need to perform data movement activities across various networks (i.e. on-premise to the Cloud) and across various services (i.e. from Azure Blob Storage to Azure SQL Server). Azure Data Factory is one option to use as your cloud ETL/ELT tool.
   
-  
+ You can execute SSIS packages in Azure Data Factory. If you are comming from the SSIS side, and you are looking into how to modernize and improve your solution.
+
+ 
+ 
   There are some features that distinguish Azure Data Factory from other tools.
 
 
