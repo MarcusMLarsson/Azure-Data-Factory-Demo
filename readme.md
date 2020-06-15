@@ -1,4 +1,4 @@
-<center ><img src="https://www.element61.be/sites/default/files/competence/Azure%20Factory/image%201.png" width="500"> </center>
+<p align="center"><center><img src="https://www.element61.be/sites/default/files/competence/Azure%20Factory/image%201.png" width="500"> </p>
 
 
 <h1> Introduction to Azure Data Factory </h1>
