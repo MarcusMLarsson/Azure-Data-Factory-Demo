@@ -13,10 +13,6 @@ You can ingest data to and from more than 80 Software-as-a-Service (SaaS) applic
 <p>
 In addition to ingesting data, you can also transform data. Previously, the only way to do this was to use external services like Azure HDInsight or SQL Server Stored Procedures. But in 2019, Azure Data Factory completed the data integration story by adding new data transformation capabilities called Data Flows. Now you can both ingest and transform data in the same user interface, making Azure Data Factory a complete ETL and data integration tool. </p>
 
-
-
-<img src="https://github.com/Azure-Data-Factory-Demo/tree/master/source/img.PNG" width="900">
-
 <img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/img.PNG">
 
 
