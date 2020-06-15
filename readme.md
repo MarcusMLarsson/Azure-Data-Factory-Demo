@@ -57,20 +57,20 @@ It was becoming increasingly more difficult to do traditional ETL using tools li
       <p> You can use Data Factory interface or external services like HDinsight (Hive, Hadoop, Spark, Pig, MapReduce), Databricks, Azure ML etc. 
       <li> Data Control</li>
       <p> Define the logic that your pipeline is going to follow. With options like ForEach. </p>
-  </ul>       
-  <li> <b>Triggers </b></li>
-  <p> Defineds when a pipeline needs to run.</p>
-  <li> <b>Integration runtime </b></li>
+  </ul>   
+    <li> <b>Datasets </b></li>
+  <p> Datasets are about data structure </p>
+    <li> Linked services </li>
+  <p> Linked services are similar to connection strings </p>
+   <li> <b>Integration runtime </b></li>
   <ul>
     <li> Data Flow execution </li>
     <li> Data Movement execution </li>
     <li> Dispatch of ACtivities </li>
     <li> SSIS package execution </li>
   </ul>
-  <li> <b>Datasets </b></li>
-  <p> Datasets are about data structure </p>
-  <li> Linked services </li>
-  <p> Linked services are similar to connection strings </p>
+  <li> <b>Triggers </b></li>
+  <p> Defineds when a pipeline needs to run.</p>
   </ul>
 
   
