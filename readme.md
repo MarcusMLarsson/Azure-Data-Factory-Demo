@@ -41,33 +41,10 @@
 It was becoming increasingly more difficult to do traditional ETL using tools like SSIS as the scale, size and shape of the data to be processed meant that you’d be hard pressed to fit it all in memory and process. What Data Factory allows you to do is copy the data at massive scale into your data lake, and then use processing tools more appropriate to the job to transform the data ready for usage downstream. This pattern is not dissimilar in fact to a common pattern seen in SSIS wherein developers simply used SSIS as the orchestrator and called a series of SQL Statements (often Stored Procedures) to handle the processing. The difference now is that it’s not just relational tables we’re dealing with and SQL code. It’s parquet, orc and avro combined with SQL and Python, mixed with a healthy does of JSON, NoSQL, Key Value pairs and Graph databases plus a sprinkle of Spark. 
 
 
+  </h3> How to learn Azure Data Factory </h3> 
   
-
-
-<h3> Cost </h3>
-
-
-<p> Databricks , preperation, collaboration, AI / ML </p>
-
-  | Azure Data Factory     | SSIS     |
-| ------------- |:-------------:|
-| Pipeline  | Package|
-| Activity   | Task     |
-| Linked Services | Connection Managers       |
-| Datasets  |SSIS Sources and Destinations        |
-| Source/Sink   |Source/Destination       |
-| uses Json files  |uses DTSX (XML)| 
-
-
-Iterative development and debugging by using visual tools
-
-
-
-
-
-
-
-<p> There are six main components that you need to understand inorder to create your projects. 
+  <img src="https://www.cathrinewilhelmsen.net/scribbles/wp-content/uploads/2019/11/CathrineWilhelmsenBeginnersGuidetoAzureDataFactory03_Components-1.png">
+  <p> There are six main components of Azure Data Factory. If you understand these components, you understand Azure Data Factory </p>
   
   <ul> 
   <li> Pipeline </li>
@@ -96,6 +73,45 @@ Iterative development and debugging by using visual tools
   <li> Linked services </li>
   <p> Linked services are similar to connection strings </p>
   </ul>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+<h3> Cost </h3>
+
+
+<p> Databricks , preperation, collaboration, AI / ML </p>
+
+  | Azure Data Factory     | SSIS     |
+| ------------- |:-------------:|
+| Pipeline  | Package|
+| Activity   | Task     |
+| Linked Services | Connection Managers       |
+| Datasets  |SSIS Sources and Destinations        |
+| Source/Sink   |Source/Destination       |
+| uses Json files  |uses DTSX (XML)| 
+
+
+Iterative development and debugging by using visual tools
+
+
+
+
+
+
+
 
 
 
