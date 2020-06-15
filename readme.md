@@ -1,6 +1,6 @@
 <p align="center"><img src="https://www.element61.be/sites/default/files/competence/Azure%20Factory/image%201.png" width="500"> </p>
 
-<h1> <center> Introduction to Azure Data Factory </center></h1>
+<h1> <b>Introduction to Azure Data Factory </b></h1>
 
 <h3> What is Azure Data Factory? </h3>
 
