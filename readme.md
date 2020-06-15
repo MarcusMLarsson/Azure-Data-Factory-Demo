@@ -17,7 +17,7 @@ In addition to ingesting data, you can also transform data. Previously, the only
 
 <img src="https://github.com/Azure-Data-Factory-Demo/tree/master/source/img.PNG" width="900">
 
-
+<img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/img.PNG">
 
 
 <h3> Why should you use Azure Data Factory? </h3>
