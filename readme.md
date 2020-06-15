@@ -15,7 +15,7 @@ In addition to ingesting data, you can also transform data. Previously, the only
 
 
 
-<img src="https://github.com/Azure-Data-Factory-Demo/blob/master/source/img.PNG" width="900">
+<img src="https://github.com/Azure-Data-Factory-Demo/tree/master/source/img.PNG" width="900">
 
 
 
