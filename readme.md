@@ -1,14 +1,13 @@
-<h3> Introduction to Azure Data Factory </h3>
+<h1> Introduction to Azure Data Factory </h1>
 
+<h3> What is Azure Data Factory? </h3>
 
-<p> What is at the core of every Business Intelligence, Data Science, and Machine Learning project? Data!</p>
+<p> What is at the core of every Business Intelligence, Data Science, and Machine Learning project? Data! You need to collect, move, store, transform, integrate, and prepare your data. That can be a pretty big and time-consuming task, right? Wouldn’t it be cool if we could do all of those things automatically, like, in a data factory or something? </p>
 
-<p> You need to collect, move, store, transform, integrate, and prepare your data. That can be a pretty big and time-consuming task, right? Wouldn’t it be cool if we could do all of those things automatically, like, in a data factory or something? </p>
-
-<b> What is Azure Data Factory </b>
 <p> Azure Data Factory (ADF) is a hybrid data integration service that enables you to quickly and efficiently create automated data pipelines – without having to write any or little amount of code!  </p>
 
-<b> What can you do with Azure Data Factory </b>
+<h3> What can you do with Azure Data Factory </h3>
+
 <p> You can ingest data and you can transform data. </p>
 <p>
 Ingesting data is the core task in Azure Data Factory. You can ingest data to and from more than 80 Software-as-a-Service (SaaS) applications (such as Dynamics 365 and Salesforce), on-premises data stores (such as SQL Server and Oracle), and cloud data stores (such as Azure SQL Database and Amazon S3). During ingestion, you can even convert file formats, zip and unzip files, and map columns implicitly and explicitly – all in one task. </p>
@@ -45,7 +44,15 @@ In addition to ingesting data, you can also transform data. Previously, the only
   <li> Linked services </li>
   <p> Linked services are similar to connection strings </p>
   </ul>
-  
+
+
+<h3> Why should you use Azure Data Factory? </h3>
+
+
+<h3> Demo </h3>
+
+
+
   
   | Azure Data Factory     | SSIS     |
 | ------------- |:-------------:|
