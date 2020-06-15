@@ -60,7 +60,7 @@ It was becoming increasingly more difficult to do traditional ETL using tools li
   </ul>   
     <li> <b>Datasets </b></li>
   <p> Datasets are about data structure </p>
-    <li> Linked services </li>
+  <li> <b>Linked services </b></li>
   <p> Linked services are similar to connection strings </p>
    <li> <b>Integration runtime </b></li>
   <ul>
