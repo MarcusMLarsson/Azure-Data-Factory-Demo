@@ -18,6 +18,8 @@
   <li> If you are looking for a PaaS-based approach, you can simply lift your SQL Server virtual machine running SSIS into the cloud </li>
   <li> For those who want to leverage a PaaS-based approaches, Azure now offers the facility to publish your SSIS packages directly into Data Factory. </li>
 </ul>
+
+<p> In the table below, the main differences between Azure Data Factory and SSIS are highlighted </p>
   
   | Azure Data Factory     | SSIS     |
 | ------------- |:-------------:|
@@ -30,29 +32,23 @@
 | On-Premises, Own Hardware, Scale out  |Hybrid, Managed, Scale up | 
 | Licenses  |Pay as you go | 
  
-  
+ <b> Cloud ETL </b> 
   
 
 <p> In almost any Cloud project you will need to perform data movement activities across various networks (i.e. on-premise to the Cloud) and across various services (i.e. from Azure Blob Storage to Azure SQL Server). Azure Data Factory is one option to use as your cloud ETL/ELT tool.
   
- You can execute SSIS packages in Azure Data Factory. If you are comming from the SSIS side, and you are looking into how to modernize and improve your solution.
-
-
-So, for those projects that are born in the cloud, can we use SSIS? Yes, sure you can. But if your using mainly cloud-born data or a hybrid, or if you need to move data at scale, 
- 
- 
-  There are some features that distinguish Azure Data Factory from other tools.
-
-
-SSIS mainly used for ETL on-premises
-Released in 2005 before Azure was announced. 
-Some of the limitations (no big data)
-You can easly lift and shift SSIS packaged to Azure
-
-
+  
+It was becoming increasingly more difficult to do traditional ETL using tools like SSIS as the scale, size and shape of the data to be processed meant that you’d be hard pressed to fit it all in memory and process. What Data Factory allows you to do is copy the data at massive scale into your data lake, and then use processing tools more appropriate to the job to transform the data ready for usage downstream. This pattern is not dissimilar in fact to a common pattern seen in SSIS wherein developers simply used SSIS as the orchestrator and called a series of SQL Statements (often Stored Procedures) to handle the processing. The difference now is that it’s not just relational tables we’re dealing with and SQL code. It’s parquet, orc and avro combined with SQL and Python, mixed with a healthy does of JSON, NoSQL, Key Value pairs and Graph databases plus a sprinkle of Spark. 
 
 
   
+
+
+<h3> Cost </h3>
+
+
+<p> Databricks , preperation, collaboration, AI / ML </p>
+
   | Azure Data Factory     | SSIS     |
 | ------------- |:-------------:|
 | Pipeline  | Package|
@@ -66,10 +62,9 @@ You can easly lift and shift SSIS packaged to Azure
 Iterative development and debugging by using visual tools
 
 
-<h3> Cost </h3>
 
 
-<p> Databricks , preperation, collaboration, AI / ML </p>
+
 
 
 <p> There are six main components that you need to understand inorder to create your projects. 
@@ -120,3 +115,6 @@ Iterative development and debugging by using visual tools
 <p> Introduction to ETL in Azure Data Factory. Importing csv data from Blob to Azure SQL </p>
 
 <p>Drag wait activity</p>
+
+
+<p> https://sqlofthenorth.blog/category/data-factory/ </p>
