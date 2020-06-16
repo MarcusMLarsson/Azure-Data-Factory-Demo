@@ -8,7 +8,7 @@
 
 <h3> What can you do with Azure Data Factory? </h3>
 
-<p> At is core, Azure Data Factory can be used to ingest and transform data. You can ingest data to and from 
+<p> At its core, Azure Data Factory can be used to ingest and transform data. You can ingest data to and from 
 <ul> <li> more than 80 Software-as-a-Service (SaaS) applications (such as Dynamics 365 and Salesforce) </li>
   <li> on-premises data stores (such as SQL Server and Oracle) </li>
   <li> and cloud data stores (such as Azure SQL Database and Amazon S3) </li>
