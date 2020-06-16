@@ -69,7 +69,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   
 <h3> Demo: Delivering a Modern Data Warehouse with Azure Data Factory </h3>
   
-<p>Good to know knowledge before starting the course </p>
+<p>Good to know knowledge before starting the demo </p>
 <ul>
    <li> <What is Apache Spark? </li>
      <p> Apache Spark is an open-source distributed general-purpose cluster-computing framework. Spark provides an interface from programming entire clusters with implicit data parallelism and fault tolerance. </p>
