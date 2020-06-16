@@ -69,13 +69,13 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   
 <h3> Demo: Delivering a Modern Data Warehouse with Azure Data Factory </h3>
   
+<p> The traditional data warehouse has served us well for many years, but new trends are causing it to break in four different ways:<ul>
+  <li>data growth </li>
+  <li> fast query expectations from users </li>
+  <li> non-relational/unstructured data </li>
+  <li> cloud-born data </li>
   
-  <p> Progressivley, it's becomming more and more the case that we are dealing with wide range of data, huge varieties and 
-  various velocities. 
-  
-  
-  
-  Elastic archticetures. Worklaod is optimzed Compute
+  <p>Enter the modern data warehouse, which is designed to support these new trends. It provides a way to easily interface with all these types of data through one query model, and can handle “big data” while providing very fast queries (via MPP).
   
   
   
