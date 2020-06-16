@@ -39,10 +39,10 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
 | Hybrid, Managed, Scale up  |On-Premises, Own Hardware, Scale out | 
 | Pay as you go  | Licenses| 
 
-  <h3> How to learn Azure Data Factory </h3> 
-  
-  <img src="https://www.cathrinewilhelmsen.net/scribbles/wp-content/uploads/2019/11/CathrineWilhelmsenBeginnersGuidetoAzureDataFactory03_Components-1.png">
-  <p> There are six main components of Azure Data Factory. If you understand these components, you understand Azure Data Factory. </p>
+  <h3> A deeper dive into Azure Data Factory </h3> 
+
+  <p> Azure Data Factory consists of 6 main components. If you understand these components, you understand Azure Data Factory. </p>
+     <img src="https://www.cathrinewilhelmsen.net/scribbles/wp-content/uploads/2019/11/CathrineWilhelmsenBeginnersGuidetoAzureDataFactory03_Components-1.png">
   
   <ul> 
   <li> <b>Pipeline </b></li>
