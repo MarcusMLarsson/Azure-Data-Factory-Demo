@@ -55,19 +55,14 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
       <li> Data transformation activitites</li>
       <p> You can use Data Flows (Azure Data Factory interface) or external services like Databricks, HDinsight (Hive, Hadoop, Spark, Pig, MapReduce), Azure ML etc. 
       <li> Data Control</li>
-      <p> Define the logic that your pipeline is going to follow. With options like ForEach. </p>
+      <p> Defines the logic that your pipeline is going to follow. Its the orchestration of pipeline activities that includes chaining activities in a sequence, branching etc. </p>
   </ul>   
     <li> <b>Datasets </b></li>
-  <p> Datasets are about data structure </p>
+  <p> Datasets represent data structures within the data stores, which simply point to or reference the data you want to use in your activities as inputs or outputs. </p>
   <li> <b>Linked services </b></li>
-  <p> This is very similar to the concept of a connection string, where you are specifying what the source and destination of your data is. </p>
+  <p> This is very similar to the concept of a connection string, where you are specifying what the source and destination of your data is. Think of it this way: a linked service defines the connection to the data source, and a dataset represents the structure of the data. For example, an Azure Storage-linked service specifies a connection string to connect to the Azure Storage account. Additionally, an Azure blob dataset specifies the blob container and the folder that contains the data.</p>
    <li> <b>Integration runtime </b></li>
-  <ul>
-    <li> Data Flow execution </li>
-    <li> Data Movement execution </li>
-    <li> Dispatch of ACtivities </li>
-    <li> SSIS package execution </li>
-  </ul>
+  <p> The Integration Runtime (IR) is the compute infrastructure used by Azure Data Factory </p>
   <li> <b>Triggers </b></li>
   <p> A trigger determines when a pipeline needs to be run. </p>
   </ul>
