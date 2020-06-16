@@ -69,6 +69,21 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   
 <h3> Demo: Delivering a Modern Data Warehouse with Azure Data Factory </h3>
   
+<p>Good to know knowledge before starting the course </p>
+<ul>
+   <li> <What is Apache Spark? </li>
+     <p> Apache Spark is an open-source distributed general-purpose cluster-computing framework. Spark provides an interface from programming entire clusters with implicit data parallelism and fault tolerance. </p>
+  <li> What is Azure Databricks? </li>
+  <p> It's a scalable apache spark based analytics platform that is optimized for Azure. Designed in collaboration with the founders of Apache Spark, Azure Databricks provides streamline workflow in an interactive workspace that enables collaboration between your data scienties, your data engineers etc. </p>
+  <li> What is Azure Storage Account? </li>
+  <p>A storage account is an cloud repository for data (Blob, File, Queue, Table) </p>
+  <li> What is Azure Blobstorage? </li>
+  <p> Blob Storage is optimized to store massive amount of unstructured data (e.g. audio, video, csv) in the cloud, servering documents directly to the browser. Blob Storage is widely used for data back-ups and restores. </p>
+  
+  
+  
+  
+  
 <img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/image.PNG">
   
 <hr>
