@@ -84,7 +84,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
 
 <p>Good to know knowledge before starting the demo </p>
 <ul>
-   <li> <What is Apache Spark? </li>
+   <li> What is Apache Spark? </li>
      <p> Apache Spark is an open-source distributed general-purpose cluster-computing framework. Spark provides an interface from programming entire clusters with implicit data parallelism and fault tolerance. </p>
   <li> What is Azure Databricks? </li>
   <p> It's a scalable apache spark based analytics platform that is optimized for Azure. Designed in collaboration with the founders of Apache Spark, Azure Databricks provides streamline workflow in an interactive workspace that enables collaboration between your data scienties, your data engineers etc. </p>
