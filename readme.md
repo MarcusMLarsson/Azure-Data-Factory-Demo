@@ -60,7 +60,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
     <li> <b>Datasets </b></li>
   <p> Datasets represent data structures within the data stores, which simply point to or reference the data you want to use in your activities as inputs or outputs. </p>
   <li> <b>Linked services </b></li>
-  <p> This is very similar to the concept of a connection string, where you are specifying what the source and destination of your data is. Think of it this way: a linked service defines the connection to the data source, and a dataset represents the structure of the data. For example, an Azure Storage-linked service specifies a connection string to connect to the Azure Storage account. Additionally, an Azure blob dataset specifies the blob container and the folder that contains the data.</p>
+  <p> This is very similar to the concept of a connection string, where you are specifying what the source and destination of your data is. </p>
    <li> <b>Integration runtime </b></li>
   <p> The Integration Runtime (IR) is the compute infrastructure used by Azure Data Factory </p>
   <li> <b>Triggers </b></li>
