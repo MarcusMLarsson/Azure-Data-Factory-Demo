@@ -66,7 +66,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   <li> <b>Triggers </b></li>
   <p> A trigger determines when a pipeline needs to be run. </p>
   </ul>  
-<h3> <b>Demo - Delivering a Modern Data Warehouse with Azure Data Factory</b></h3>
+<h3> Delivering a Modern Data Warehouse with Azure Data Factory</b></h3>
 
 <p> The traditional data warehouse has served us well for many years, but new trends are causing it to break in four different ways:<ul>
   <li>data growth </li>
@@ -77,7 +77,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   <p>Enter the modern data warehouse, which is designed to support these new trends. A modern data warehouse on Azure provides a way to easily interface with all these types of data through one query model, and can handle “big data” while providing very fast queries (via MPP). </p>
   
 <img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/image.PNG">
-
+<h3> Demo </h3>
 <p> In this demo, I will show how easy and quick it is to set up a modern data warehouse using Azure Data Factory. The architecture which we are going to create are displayed in the figure above. Follow the following steps to set up the data warehouse (a full explanation will be given at the seminar).</p>
 
 <ul>
