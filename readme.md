@@ -65,8 +65,8 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   <p> The Integration Runtime (IR) is the compute infrastructure used by Azure Data Factory </p>
   <li> <b>Triggers </b></li>
   <p> A trigger determines when a pipeline needs to be run. </p>
-  </ul>
-  
+  </ul>  
+  <hr>  
 <h3> Demo: Delivering a Modern Data Warehouse with Azure Data Factory </h3>
   
 <p> The traditional data warehouse has served us well for many years, but new trends are causing it to break in four different ways:<ul>
