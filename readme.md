@@ -69,8 +69,8 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   
   <hr>
   
+<h1> <b>Demo: Delivering a Modern Data Warehouse with Azure Data Factory</b></h1>
 <p align="center"><img src="https://adatis.co.uk/wp-content/uploads/historic/DavidStelfox_clip_image0025.png" width="1000"></p>
-  <h1> <b>Demo: Delivering a Modern Data Warehouse with Azure Data Factory</b></h1>
 
 <p> The traditional data warehouse has served us well for many years, but new trends are causing it to break in four different ways:<ul>
   <li>data growth </li>
