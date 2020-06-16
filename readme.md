@@ -66,23 +66,14 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   <li> <b>Triggers </b></li>
   <p> A trigger determines when a pipeline needs to be run. </p>
   </ul>
-
   
-  
-  
-  
-  
-  
-  <h3> Demo </h3>
+<h3> Demo: Delivering a Modern Data Warehouse with Azure Data Factory </h3>
   
 <img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/image.PNG">
   
-  <hr>
+<hr>
   
   
-
-
-<h3> Cost </h3>
 
 
 <p> Databricks , preperation, collaboration, AI / ML </p>
@@ -110,17 +101,6 @@ Iterative development and debugging by using visual tools
 
 
 
-<h3> Modern Data Warehouse</h3>
-
-
-
-
-
-<h3> Demo </h3>
-
-<p> Introduction to ETL in Azure Data Factory. Importing csv data from Blob to Azure SQL </p>
-
-<p>Drag wait activity</p>
 
 
 <p> https://sqlofthenorth.blog/category/data-factory/ </p>
