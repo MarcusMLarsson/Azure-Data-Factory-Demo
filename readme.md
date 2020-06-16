@@ -41,7 +41,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
 
   <h3> A deeper dive into Azure Data Factory </h3> 
 
-  <p> Azure Data Factory consists of 6 main components. If you understand these components, you understand Azure Data Factory. </p>
+  <p> Azure Data Factory consists of 6 main components. If you understand these components, you understand Azure Data Factory. The components are the following: </p>
      <img src="https://www.cathrinewilhelmsen.net/scribbles/wp-content/uploads/2019/11/CathrineWilhelmsenBeginnersGuidetoAzureDataFactory03_Components-1.png">
   
   <ul> 
