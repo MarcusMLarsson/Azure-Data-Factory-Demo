@@ -19,7 +19,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
 <h3> On-premise ETL vs Cloud ETL</h3>
 
 <b> On-premise ETL </b>
-<p> For on-premise ETL solutions, SQL Server Integration Services (SSIS) is still the industry-standard for those invested in the Microsoft BI Stack. SSIS has been around since 2005. It’s very mature and has a lot of learning resources, blogs and articles as how to setup and develop with it. SSIS provides connectors to many different sources and contains many different transformation tasks that can handle pretty much any kind of traditional ETL workflow. For those people moving to Azure and who has sunk a lot of development time into SSIS, have no fear. It's very easy to lift and shift your solution to the cloud.
+<p> For on-premise ETL solutions, SQL Server Integration Services (SSIS) is still the industry-standard. SSIS has been around since 2005. It’s very mature and has a lot of learning resources, blogs and articles as how to setup and develop with it. SSIS provides connectors to many different sources and contains many different transformation tasks that can handle pretty much any kind of traditional ETL workflow. For those people moving to Azure and who has sunk a lot of development time into SSIS, have no fear. It's very easy to lift and shift your solution to the cloud.
 <ul>
   <li> If you are looking for a PaaS-based approach, you can simply lift your SQL Server virtual machine running SSIS into the cloud </li>
   <li> For those who want to leverage a PaaS-based approaches, Azure now offers the facility to publish your SSIS packages directly into Data Factory. </li>
