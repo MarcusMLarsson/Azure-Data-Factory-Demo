@@ -27,18 +27,17 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
  
  <b> Cloud ETL </b> 
   
-<p> It has becoming increasingly more difficult to do traditional ETL using tools like SSIS as the scale and the size of the data to be processed has grown. Azure Data Factory allows you to copy data at massive scale, and then use processing tools (e.g. Databricks) more appropriate to the job to transform the data ready for usage downstream. This pattern is not dissimilar to a common pattern seen in SSIS wherein developers used SSIS as the orchestrator and calls a series of SQL Statements (often Stored Procedures) to handle the processing. The difference now is that it’s not just relational tables we’re dealing with and SQL code. It’s parquet, orc and avro combined with SQL and Python, mixed with JSON, NoSQL, Key Value pairs and Graph databases plus a sprinkle of Spark etc 
+<p> It has becoming increasingly more difficult to do traditional ETL using tools like SSIS as the scale and the size of the data to be processed has grown. Azure Data Factory allows you to copy data at massive scale, and then use processing tools (e.g. Databricks) more appropriate to the job to transform the data ready for usage downstream. This pattern is not dissimilar to a common pattern seen in SSIS wherein developers used SSIS as the orchestrator and calls a series of SQL Statements (often Stored Procedures) to handle the processing. The difference now is that it’s not just relational tables we’re dealing with and SQL code. It’s parquet, orc and avro combined with SQL and Python, mixed with JSON, NoSQL, Key Value pairs and Graph databases plus a sprinkle of Spark etc. The table below, highlights some of the differences between Azure Data Factory and SSIS.
 
   | Azure Data Factory     | SSIS     |
 | ------------- |:-------------:|
 | High volumn of data | Medium volumn of data|
 | Batch & Streaming | Batch    |
 | Structured, Unstructured & Schema-drift | Structured       |
-| Browser  |SSDT        |
 | Drag and Drop & Code (CLI & SDK)  | Drag and Drop       |
-| VB, C# & Biml  |C#, Python, PowerShell CLI| 
-| On-Premises, Own Hardware, Scale out  |Hybrid, Managed, Scale up | 
-| Licenses  |Pay as you go | 
+| C#, Python, PowerShell CLI  |  VB, C# & Biml| 
+| Hybrid, Managed, Scale up  |On-Premises, Own Hardware, Scale out | 
+| Pay as you go  | Licenses| 
 
   <h3> How to learn Azure Data Factory </h3> 
   
