@@ -75,11 +75,12 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   <li> non-relational/unstructured data </li>
   <li> cloud-born data </li>
   
-  <p>Enter the modern data warehouse, which is designed to support these new trends. It provides a way to easily interface with all these types of data through one query model, and can handle “big data” while providing very fast queries (via MPP).
+  <p>Enter the modern data warehouse, which is designed to support these new trends. A modern data warehouse on Azure provides a way to easily interface with all these types of data through one query model, and can handle “big data” while providing very fast queries (via MPP). </p>
+
+<p> In this demo, I will show how easy and quick it is to set up a modern data warehouse using Azure Data Factory. The architecture which we are going to create are displayed in the figure below.  
   
-  
-  
-  
+<img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/image.PNG">
+
 <p>Good to know knowledge before starting the demo </p>
 <ul>
    <li> <What is Apache Spark? </li>
@@ -90,43 +91,4 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   <p>A storage account is an cloud repository for data (Blob, File, Queue, Table) </p>
   <li> What is Azure Blobstorage? </li>
   <p> Blob Storage is optimized to store massive amount of unstructured data (e.g. audio, video, csv) in the cloud, servering documents directly to the browser. Blob Storage is widely used for data back-ups and restores. </p>
-  
-  
-  
-  
-  
-<img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/image.PNG">
-  
-<hr>
-  
-  
-
-
-<p> Databricks , preperation, collaboration, AI / ML </p>
-
-
-
-Iterative development and debugging by using visual tools
-
-
-
-
- | Azure Data Factory     | SSIS     |
-| ------------- |:-------------:|
-| Pipeline  | Package|
-| Activity   | Task     |
-| Linked Services | Connection Managers       |
-| Datasets  |SSIS Sources and Destinations        |
-| Source/Sink   |Source/Destination       |
-| uses Json files  |uses DTSX (XML)| 
-
-
-
-
-
-
-
-
-
-
-<p> https://sqlofthenorth.blog/category/data-factory/ </p>
+ 
