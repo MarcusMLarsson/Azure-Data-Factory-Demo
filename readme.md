@@ -60,7 +60,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
     <li> <b>Datasets </b></li>
   <p> Datasets are about data structure </p>
   <li> <b>Linked services </b></li>
-  <p> Linked services are similar to connection strings </p>
+  <p> This is very similar to the concept of a connection string, where you are specifying what the source and destination of your data is. </p>
    <li> <b>Integration runtime </b></li>
   <ul>
     <li> Data Flow execution </li>
@@ -69,20 +69,12 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
     <li> SSIS package execution </li>
   </ul>
   <li> <b>Triggers </b></li>
-  <p> Defineds when a pipeline needs to run.</p>
+  <p> A trigger determines when a pipeline needs to be run. </p>
   </ul>
 
   
   
   
-  | Azure Data Factory     | SSIS     |
-| ------------- |:-------------:|
-| Pipeline  | Package|
-| Activity   | Task     |
-| Linked Services | Connection Managers       |
-| Datasets  |SSIS Sources and Destinations        |
-| Source/Sink   |Source/Destination       |
-| uses Json files  |uses DTSX (XML)| 
   
   
   
@@ -107,7 +99,14 @@ Iterative development and debugging by using visual tools
 
 
 
-
+ | Azure Data Factory     | SSIS     |
+| ------------- |:-------------:|
+| Pipeline  | Package|
+| Activity   | Task     |
+| Linked Services | Connection Managers       |
+| Datasets  |SSIS Sources and Destinations        |
+| Source/Sink   |Source/Destination       |
+| uses Json files  |uses DTSX (XML)| 
 
 
 
