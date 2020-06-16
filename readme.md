@@ -14,9 +14,7 @@
   <li> and cloud data stores (such as Azure SQL Database and Amazon S3) </li>
   </ul>
 
-During ingestion, you can even convert file formats, zip and unzip files, and map columns implicitly and explicitly – all in one task. </p>
-
-<p> In addition to ingesting data, you can also transform data. Previously, the only way to do this was to use external services like Azure HDInsight or SQL Server Stored Procedures. But in 2019, Azure Data Factory completed the data integration story by adding new data transformation capabilities called Data Flows. Now you can both ingest and transform data in the same user interface, making Azure Data Factory a complete ETL and data integration tool. </p>
+During ingestion, you can even convert file formats, zip and unzip files, and map columns implicitly and explicitly – all in one task. In addition to ingesting data, you can also transform data. Previously, the only way to do this was to use external services like Azure HDInsight or SQL Server Stored Procedures. But in 2019, Azure Data Factory completed the data integration story by adding new data transformation capabilities called Data Flows. Now you can both ingest and transform data in the same user interface, making Azure Data Factory a complete ETL and data integration tool. </p>
 
 <h3> On-premise ETL vs Cloud ETL</h3>
 
