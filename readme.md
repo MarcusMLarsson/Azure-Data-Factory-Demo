@@ -32,8 +32,6 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
  
 It was becoming increasingly more difficult to do traditional ETL using tools like SSIS as the scale, size and shape of the data to be processed meant that you’d be hard pressed to fit it all in memory and process. What Data Factory allows you to do is copy the data at massive scale into your data lake, and then use processing tools more appropriate to the job to transform the data ready for usage downstream. This pattern is not dissimilar in fact to a common pattern seen in SSIS wherein developers simply used SSIS as the orchestrator and called a series of SQL Statements (often Stored Procedures) to handle the processing. The difference now is that it’s not just relational tables we’re dealing with and SQL code. It’s parquet, orc and avro combined with SQL and Python, mixed with a healthy does of JSON, NoSQL, Key Value pairs and Graph databases plus a sprinkle of Spark. 
 
-<p> In the table below, the main differences between Azure Data Factory and SSIS are highlighted </p>
-  
   | Azure Data Factory     | SSIS     |
 | ------------- |:-------------:|
 | High volumn of data | Medium volumn of data|
