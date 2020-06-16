@@ -75,7 +75,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   
   <h3> Demo </h3>
   
-  <img src="https://www.google.se/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&ved=2ahUKEwjFk6Hi-IXqAhWHwMQBHYBaA4EQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.slideshare.net%2Fjamserra%2Fbuilding-a-modern-data-warehouse-public&psig=AOvVaw2kQPfgZy7QMo1sDcKD6VqU&ust=1592383453572669">
+  <img src="https://image.slidesharecdn.com/microsofttechsummitoslo-cathrinewilhelmsen-moderndatawarehouse-181208145324/95/deliver-your-modern-data-warehouse-microsoft-tech-summit-oslo-2018-5-638.jpg?cb=1544280909">
   
   <hr>
   
