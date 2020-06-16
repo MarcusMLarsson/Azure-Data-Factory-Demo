@@ -77,7 +77,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
  </ul>
   <p>Enter the modern data warehouse, which is designed to support these new trends. A modern data warehouse on Azure provides a way to easily interface with all these types of data through one query model, and can handle “big data” while providing very fast queries (via MPP). </p>
 
-<p> In this demo, I will show how easy and quick it is to set up a modern data warehouse using Azure Data Factory. The architecture which we are going to create are displayed in the figure below.  
+<p> In this demo, I will show how easy and quick it is to set up a modern data warehouse using Azure Data Factory. The architecture which we are going to create are displayed in the figure below. </p>
   
 <img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/image.PNG">
 
