@@ -66,7 +66,8 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   <li> <b>Triggers </b></li>
   <p> A trigger determines when a pipeline needs to be run. </p>
   </ul>  
-  
+
+<hr>
 <h3> <b>Demo - Delivering a Modern Data Warehouse with Azure Data Factory</b></h3>
 
 <p> The traditional data warehouse has served us well for many years, but new trends are causing it to break in four different ways:<ul>
