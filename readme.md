@@ -24,6 +24,13 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   <li> If you are looking for a PaaS-based approach, you can simply lift your SQL Server virtual machine running SSIS into the cloud </li>
   <li> For those who want to leverage a PaaS-based approaches, Azure now offers the facility to publish your SSIS packages directly into Data Factory. </li>
 </ul>
+ 
+ <b> Cloud ETL </b> 
+  
+<p> In almost any Cloud project you will need to perform data movement activities across various networks (i.e. on-premise to the Cloud) and across various services (i.e. from Azure Blob Storage to Azure SQL Server). Azure Data Factory is one option to use as your cloud ETL/ELT tool.
+  
+ 
+It was becoming increasingly more difficult to do traditional ETL using tools like SSIS as the scale, size and shape of the data to be processed meant that you’d be hard pressed to fit it all in memory and process. What Data Factory allows you to do is copy the data at massive scale into your data lake, and then use processing tools more appropriate to the job to transform the data ready for usage downstream. This pattern is not dissimilar in fact to a common pattern seen in SSIS wherein developers simply used SSIS as the orchestrator and called a series of SQL Statements (often Stored Procedures) to handle the processing. The difference now is that it’s not just relational tables we’re dealing with and SQL code. It’s parquet, orc and avro combined with SQL and Python, mixed with a healthy does of JSON, NoSQL, Key Value pairs and Graph databases plus a sprinkle of Spark. 
 
 <p> In the table below, the main differences between Azure Data Factory and SSIS are highlighted </p>
   
@@ -37,14 +44,6 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
 | VB, C# & Biml  |C#, Python, PowerShell CLI| 
 | On-Premises, Own Hardware, Scale out  |Hybrid, Managed, Scale up | 
 | Licenses  |Pay as you go | 
- 
- <b> Cloud ETL </b> 
-  
-
-<p> In almost any Cloud project you will need to perform data movement activities across various networks (i.e. on-premise to the Cloud) and across various services (i.e. from Azure Blob Storage to Azure SQL Server). Azure Data Factory is one option to use as your cloud ETL/ELT tool.
-  
-  
-It was becoming increasingly more difficult to do traditional ETL using tools like SSIS as the scale, size and shape of the data to be processed meant that you’d be hard pressed to fit it all in memory and process. What Data Factory allows you to do is copy the data at massive scale into your data lake, and then use processing tools more appropriate to the job to transform the data ready for usage downstream. This pattern is not dissimilar in fact to a common pattern seen in SSIS wherein developers simply used SSIS as the orchestrator and called a series of SQL Statements (often Stored Procedures) to handle the processing. The difference now is that it’s not just relational tables we’re dealing with and SQL code. It’s parquet, orc and avro combined with SQL and Python, mixed with a healthy does of JSON, NoSQL, Key Value pairs and Graph databases plus a sprinkle of Spark. 
 
   <h3> How to learn Azure Data Factory </h3> 
   
