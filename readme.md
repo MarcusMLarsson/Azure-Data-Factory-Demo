@@ -84,7 +84,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
 
 
 <hr>
-<h3> Appendiz </h3>
+<h3> Appendix </h3>
 <p>Good to know knowledge for the demo </p>
 <ul>
    <li> What is Apache Spark? </li>
