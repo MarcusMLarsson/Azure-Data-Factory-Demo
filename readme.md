@@ -78,7 +78,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   
 <img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/image.PNG">
 
-<p> In this demo, I will show how easy and quick it is to set up a modern data warehouse using Azure Data Factory. The architecture which we are going to create are displayed in the figure above. Follow the following steps:</p>
+<p> In this demo, I will show how easy and quick it is to set up a modern data warehouse using Azure Data Factory. The architecture which we are going to create are displayed in the figure above. Follow the following steps to set up the data warehouse (a full explanation will be given at the seminar).</p>
 
 <ul>
  <li> Provision Azure Storage Account, Azure Blob Storage, Azure Databricks, Azure SQL Warehouse </li>
