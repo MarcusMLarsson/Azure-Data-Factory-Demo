@@ -75,7 +75,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   
   <h3> Demo </h3>
   
-  <img src="https://image.slidesharecdn.com/microsofttechsummitoslo-cathrinewilhelmsen-moderndatawarehouse-181208145324/95/deliver-your-modern-data-warehouse-microsoft-tech-summit-oslo-2018-5-638.jpg?cb=1544280909">
+<img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/image.PNG">
   
   <hr>
   
@@ -112,8 +112,6 @@ Iterative development and debugging by using visual tools
 
 <h3> Modern Data Warehouse</h3>
 
-<img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/imgage.PNG">
-<img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/img1.PNG">
 
 
 
