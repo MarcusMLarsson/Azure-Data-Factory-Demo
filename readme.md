@@ -16,31 +16,7 @@
 
 During ingestion, you can even convert file formats, zip and unzip files, and map columns implicitly and explicitly – all in one task. In addition to ingesting data, you can also transform data. Previously, the only way to do this was to use external services like Azure HDInsight or SQL Server Stored Procedures. But in 2019, Azure Data Factory completed the data integration story by adding new data transformation capabilities called Data Flows. Now you can both ingest and transform data in the same user interface, making Azure Data Factory a complete ETL and data integration tool. </p>
 
-<h3> On-premise ETL vs Cloud ETL</h3>
-
-<b> On-premise ETL </b>
-<p> For on-premise ETL solutions, SQL Server Integration Services (SSIS) is still the industry-standard. SSIS has been around since 2005. It’s very mature and has a lot of learning resources, blogs and articles as how to setup and develop with it. SSIS provides connectors to many different sources and contains many different transformation tasks that can handle pretty much any kind of traditional ETL workflow. For those people moving to Azure and who has sunk a lot of development time into SSIS, have no fear. It's very easy to lift and shift your solutions to the cloud.
-<ul>
-  <li> If you are looking for a IaaS-based approach, you can simply lift your SQL Server virtual machine running SSIS into the cloud. </li>
-  <li> For those who want to leverage a PaaS-based approaches, Azure now offers the facility to publish your SSIS packages directly into Data Factory. </li>
-</ul>
- 
- <b> Cloud ETL </b> 
-  
-<p> It has become increasingly more difficult to do traditional ETL using tools like SSIS as the scale and the size of the data to be processed has grown. Azure Data Factory allows you to copy data at massive scale, and then use processing tools (e.g. Databricks) more appropriate to the job to transform the data ready for usage downstream. This pattern is not dissimilar to a common pattern seen in SSIS wherein developers used SSIS as the orchestrator and calls a series of SQL Statements (often Stored Procedures) to handle the processing. The difference now is that it’s not just relational tables we’re dealing with and SQL code. It’s big data file formats like parquet, orc and avro combined with SQL and Python, mixed with JSON, NoSQL, Key Value pairs and Graph databases plus a sprinkle of Spark etc. The table below, highlights some of the differences between Azure Data Factory and SSIS.
-
-  | Azure Data Factory     | SSIS     |
-| ------------- |:-------------:|
-| High volumn of data | Medium volumn of data|
-| Batch & Streaming | Batch    |
-| Structured, Unstructured & Schema-drift | Structured       |
-| Drag and Drop & Code (CLI & SDK)  | Drag and Drop       |
-| C#, Python, PowerShell CLI  |  VB, C# & Biml| 
-| Hybrid, Managed, Scale up  |On-Premises, Own Hardware, Scale out | 
-| Pay as you go  | Licenses| 
-
-  <h3> A deeper dive into Azure Data Factory </h3> 
-
+<h3> A deeper dive into Azure Data Factory </h3> 
   <p> Azure Data Factory consists of 7 main components. If you understand these components, you understand Azure Data Factory. The components are the following: </p>
      <img src="https://www.cathrinewilhelmsen.net/scribbles/wp-content/uploads/2019/11/CathrineWilhelmsenBeginnersGuidetoAzureDataFactory03_Components-1.png">
   
@@ -68,6 +44,31 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
     <li> <b>Templates </b></li>
   <p> Templates are predefined Azure Data Factory pipelines that allow you to get started quickly with Data Factory. Templates are useful when you're new to Data Factory and want to get started quickly. </p>
   </ul>  
+
+<h3> On-premise ETL vs Cloud ETL</h3>
+
+<b> On-premise ETL </b>
+<p> For on-premise ETL solutions, SQL Server Integration Services (SSIS) is still the industry-standard. SSIS has been around since 2005. It’s very mature and has a lot of learning resources, blogs and articles as how to setup and develop with it. SSIS provides connectors to many different sources and contains many different transformation tasks that can handle pretty much any kind of traditional ETL workflow. For those people moving to Azure and who has sunk a lot of development time into SSIS, have no fear. It's very easy to lift and shift your solutions to the cloud.
+<ul>
+  <li> If you are looking for a IaaS-based approach, you can simply lift your SQL Server virtual machine running SSIS into the cloud. </li>
+  <li> For those who want to leverage a PaaS-based approaches, Azure now offers the facility to publish your SSIS packages directly into Data Factory. </li>
+</ul>
+ 
+ <b> Cloud ETL </b> 
+  
+<p> It has become increasingly more difficult to do traditional ETL using tools like SSIS as the scale and the size of the data to be processed has grown. Azure Data Factory allows you to copy data at massive scale, and then use processing tools (e.g. Databricks) more appropriate to the job to transform the data ready for usage downstream. This pattern is not dissimilar to a common pattern seen in SSIS wherein developers used SSIS as the orchestrator and calls a series of SQL Statements (often Stored Procedures) to handle the processing. The difference now is that it’s not just relational tables we’re dealing with and SQL code. It’s big data file formats like parquet, orc and avro combined with SQL and Python, mixed with JSON, NoSQL, Key Value pairs and Graph databases plus a sprinkle of Spark etc. The table below, highlights some of the differences between Azure Data Factory and SSIS.
+
+  | Azure Data Factory     | SSIS     |
+| ------------- |:-------------:|
+| High volumn of data | Medium volumn of data|
+| Batch & Streaming | Batch    |
+| Structured, Unstructured & Schema-drift | Structured       |
+| Drag and Drop & Code (CLI & SDK)  | Drag and Drop       |
+| C#, Python, PowerShell CLI  |  VB, C# & Biml| 
+| Hybrid, Managed, Scale up  |On-Premises, Own Hardware, Scale out | 
+| Pay as you go  | Licenses| 
+
+ 
 <h3> Delivering a Modern Data Warehouse with Azure Data Factory</b></h3>
 
 <p> The traditional data warehouse has served us well for many years, but new trends are causing it to break in four different ways:<ul>
