@@ -60,7 +60,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
 
   | Azure Data Factory     | SSIS     |
 | ------------- |:-------------:|
-| High volumn of data | Medium volumn of data|
+| High volume of data | Medium volume of data|
 | Batch & Streaming | Batch    |
 | Structured, Unstructured & Schema-drift | Structured       |
 | Drag and Drop & Code (CLI & SDK)  | Drag and Drop       |
