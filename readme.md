@@ -29,7 +29,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
       <li> Data movement activitites</li>
       <p> Copies and moves data from different sources. </p>
       <li> Data transformation activitites</li>
-      <p> You can use Data Flows (Azure Data Factory interface) or external services like Databricks, HDinsight (Hive, Hadoop, Spark, Pig, MapReduce), Azure ML etc. 
+      <p> You can use Data Flows (Azure Data Factory interface) or external services like Databricks, HDinsight, Azure ML etc. 
       <li> Data Control</li>
       <p> Defines the logic that your pipeline is going to follow. Its the orchestration of pipeline activities that includes chaining activities in a sequence, branching etc. </p>
   </ul>   
