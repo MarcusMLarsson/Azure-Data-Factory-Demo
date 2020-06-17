@@ -51,7 +51,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   <p> Activities are handeling the data. There are three types of activities in Azure Data Factory. 
     <ul>
       <li> Data movement activitites</li>
-      <p> Copies and moves data from different sources </p>
+      <p> Copies and moves data from different sources. </p>
       <li> Data transformation activitites</li>
       <p> You can use Data Flows (Azure Data Factory interface) or external services like Databricks, HDinsight (Hive, Hadoop, Spark, Pig, MapReduce), Azure ML etc. 
       <li> Data Control</li>
@@ -62,7 +62,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   <li> <b>Linked services </b></li>
   <p> This is very similar to the concept of a connection string, where you are specifying what the source and destination of your data is. </p>
    <li> <b>Integration runtime </b></li>
-  <p> The Integration Runtime (IR) is the compute infrastructure used by Azure Data Factory </p>
+  <p> The Integration Runtime (IR) is the compute infrastructure used by Azure Data Factory. </p>
   <li> <b>Triggers </b></li>
   <p> A trigger determines when a pipeline needs to be run. </p>
     <li> <b>Templates </b></li>
