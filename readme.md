@@ -41,7 +41,7 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
 
   <h3> A deeper dive into Azure Data Factory </h3> 
 
-  <p> Azure Data Factory consists of 6 main components. If you understand these components, you understand Azure Data Factory. The components are the following: </p>
+  <p> Azure Data Factory consists of 7 main components. If you understand these components, you understand Azure Data Factory. The components are the following: </p>
      <img src="https://www.cathrinewilhelmsen.net/scribbles/wp-content/uploads/2019/11/CathrineWilhelmsenBeginnersGuidetoAzureDataFactory03_Components-1.png">
   
   <ul> 
@@ -65,6 +65,8 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   <p> The Integration Runtime (IR) is the compute infrastructure used by Azure Data Factory </p>
   <li> <b>Triggers </b></li>
   <p> A trigger determines when a pipeline needs to be run. </p>
+    <li> <b>Templates </b></li>
+  <p> Templates are predefined Azure Data Factory pipelines that allow you to get started quickly with Data Factory. Templates are useful when you're new to Data Factory and want to get started quickly. </p>
   </ul>  
 <h3> Delivering a Modern Data Warehouse with Azure Data Factory</b></h3>
 
