@@ -77,17 +77,11 @@ During ingestion, you can even convert file formats, zip and unzip files, and ma
   <li> non-relational/unstructured data </li>
   <li> cloud-born data </li>
  </ul>
-  <p>Enter the modern data warehouse, which is designed to support these new trends. A modern data warehouse on Azure provides a way to easily interface with all these types of data through one query model, and can handle “big data” while providing very fast queries (via MPP). </p>
+  <p>Enter the modern data warehouse, which is designed to support these new trends. A modern data warehouse on Azure provides a way to easily interface with all these types of data through one query model, and can handle “big data” while providing very fast queries via massively parallel processing. </p>
   
 <img src="https://raw.githubusercontent.com/MarcusMLarsson/Azure-Data-Factory-Demo/master/source/image.PNG">
 <h3> Demo </h3>
-<p> In this demo, I will show you how easy and quick it is to set up a modern data warehouse using Azure Data Factory. The architecture which we are going to create are displayed in the figure above. Follow the following steps to set up the data warehouse (a full explanation will be given at the seminar).</p>
-
-<ul>
- <li> Provision Azure Storage Account, Azure Blob Storage, Azure Databricks, Azure SQL Warehouse </li>
-  <li> Created linked services and data tables for each service </li>
-  <li> Create the pipeline </li>
-</ul>
+<p> In this demo, I will show you how easy and quick it is to set up a modern data warehouse using Azure Data Factory. The architecture which we are going to create are displayed in the figure above. A detailed explanation will be given at the seminar.</p>
 
 <hr>
 <h3> Appendix </h3>
